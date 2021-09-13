@@ -10,6 +10,10 @@ cask "wechattweak-cli" do
   binary "wechattweak-cli"
   depends_on macos: ">= :el_capitan"
 
+  if MacOS.version < "10.14.4"
+    depends_on cask: "sunnyyoung/repo/swift-runtime-support"
+  end
+
   postflight do
     system "xattr", "-d", "com.apple.quarantine", "#{HOMEBREW_PREFIX}/bin/wechattweak-cli"
   end
