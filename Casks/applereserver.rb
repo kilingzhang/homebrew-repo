@@ -1,6 +1,6 @@
 cask "applereserver" do
-  version "5.2"
-  sha256 "d5947f294b25efbf45b526900b55094cb1c8334b162e39c2c3a992a6c4b826fc"
+  version "5.3"
+  sha256 "526cbb688888cbc0ba5d036bf4dd7dba3c513f420c23bfa4cc0212ea3f8f8407"
   url "https://github.com/Sunnyyoung/AppleReserver/releases/download/#{version}/applereserver"
 
   name "AppleReserver"
