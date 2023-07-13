@@ -1,6 +1,6 @@
 cask "wechattweak-cli" do
-  version "1.4"
-  sha256 "18c1135f4db289d57e4eb65c4b5d3e551b63c0e72c59ec1ceb6a9c88c87e0903"
+  version "1.5"
+  sha256 "f47985dc4bf7156191c07a886137838924270ae30c2a2299574d8d4c9f21e27b"
   url "https://github.com/Sunnyyoung/WeChatTweak-CLI/releases/download/#{version}/wechattweak-cli"
 
   name "WeChatTweak-CLI"
@@ -8,7 +8,7 @@ cask "wechattweak-cli" do
   homepage "https://tweaks.app"
 
   binary "wechattweak-cli"
-  depends_on macos: ">= :el_capitan"
+  depends_on macos: ">= :sierra"
 
   postflight do
     system "xattr", "-d", "com.apple.quarantine", "#{HOMEBREW_PREFIX}/bin/wechattweak-cli"
