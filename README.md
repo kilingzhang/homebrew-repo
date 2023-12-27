@@ -1,10 +1,10 @@
-# Sunnyyoung Repo
+# kilingzhang Repo
 
 ## How do I install these formulae?
 
-`brew install sunnyyoung/repo/<formula>`
+`brew install kilingzhang/repo/<formula>`
 
-Or `brew tap sunnyyoung/repo` and then `brew install <formula>`.
+Or `brew tap kilingzhang/repo` and then `brew install <formula>`.
 
 ## Documentation
 
